@@ -26,7 +26,7 @@ const Navigation = () => {
           <Nav className="me-auto">
             <Link
               to="/AboutMePage"
-              className="d-flex align-items-center text-decoration-none text-white"
+              className="d-flex align-items-center text-decoration-none text-white me-3"
             >
               Chi sono
             </Link>
@@ -45,7 +45,7 @@ const Navigation = () => {
 
             <Link
               to="/EffectiveTeaching"
-              className="d-flex align-items-center text-decoration-none text-white me-3"
+              className="d-flex align-items-center text-decoration-none text-white"
             >
               Didatica Efficace
             </Link>
