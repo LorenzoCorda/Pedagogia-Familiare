@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import React from "react";
 import "../footer/footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,25 +11,46 @@ const Footer = () => {
           <Col md={4} className="text-center custom-info-title">
             <h4 className="text-info">Dott.ssa Marta Corda</h4>
             <p className="fs-5 text-white">
-              Disegnamo progetti di Didatica Efficace e progetti in rete con le
+              Disegnamo progetti di Didattica Efficace e progetti in rete con le
               scuole, ascoltando gli studenti e le famiglie.
             </p>
           </Col>
           <Col md={4} className="text-center custom-info-title">
-            <h4 className="fs-5 text-info">Explore</h4>
+            <h4 className="fs-5 text-info">Esplora</h4>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-light fs-5 text-decoration-none">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/about"
-                  className="text-light fs-5 text-decoration-none"
+                <Link
+                  to="/"
+                  className="d-flex justify-content-center text-decoration-none text-white fs-5"
                 >
-                  Chi siamo
-                </a>
+                  Home
+                </Link>
+
+                <Link
+                  to="/AboutMePage"
+                  className="d-flex justify-content-center text-decoration-none text-white fs-5"
+                >
+                  Chi sono
+                </Link>
+                <Link
+                  to="/WhoIsPedagogistPage"
+                  className="d-flex justify-content-center text-decoration-none text-white fs-5"
+                >
+                  Chi è il pedagogista?
+                </Link>
+                <Link
+                  to="/PedagogistPage"
+                  className="d-flex justify-content-center text-decoration-none text-white fs-5"
+                >
+                  Pedagogia Familiare
+                </Link>
+
+                <Link
+                  to="/EffectiveTeaching"
+                  className="d-flex justify-content-center text-decoration-none text-white fs-5"
+                >
+                  Didatica Efficace
+                </Link>
               </li>
             </ul>
           </Col>
@@ -37,7 +59,7 @@ const Footer = () => {
 
             <a
               className="text-decoration-none text-white fs-5"
-              href="mailto:breakmeet.contact@gmail.com"
+              href="mailto:dott.ssamartacorda@gmail.com"
             >
               dott.ssamartacorda@gmail.com
             </a>

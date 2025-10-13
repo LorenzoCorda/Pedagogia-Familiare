@@ -5,6 +5,7 @@ import "./App.css";
 import PedagogistPage from "../pages/PedagogistPage/PedagogistPage";
 import WhoIsPedagogistPage from "../pages/WhoIsThePedagogist/WhoIsPedagogistPage";
 import EffectiveTeaching from "../pages/EffectiveTeaching/EffectiveTeaching";
+import AboutMePage from "../pages/AboutMe/AboutMePage";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             element={<WhoIsPedagogistPage />}
           />
           <Route path="/EffectiveTeaching" element={<EffectiveTeaching />} />
+          <Route path="/AboutMePage" element={<AboutMePage />} />
         </Routes>
       </BrowserRouter>
     </>
