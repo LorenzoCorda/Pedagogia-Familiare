@@ -1,0 +1,17 @@
+.custom-img-f {
+  max-width: 600px;
+}
+.background {
+  object-fit: cover;
+}
+.custom-btn {
+  display: flex;
+  justify-content: center;
+}
+.custom-link-back {
+  color: black;
+}
+
+.custom-link-back:hover {
+  color: blueviolet;
+}
