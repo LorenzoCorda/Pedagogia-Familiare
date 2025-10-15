@@ -6,7 +6,11 @@ import "../navbar/navigation.css";
 import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
-    <Navbar expand="lg" className="custom-bg-color position-relative">
+    <Navbar
+      expand="lg"
+      variant="dark"
+      className="custom-bg-color position-relative"
+    >
       <img className="custom-img-details-sun" src="/Photo/Sun.png" alt="" />
       <img className="custom-img-details-cloud" src="/Photo/Cloud.png" alt="" />
       <img
@@ -21,7 +25,10 @@ const Navigation = () => {
           <img className="custom-logo" src="/Photo/LogoWithoutBG.png" alt="" />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="custom-toggler"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link

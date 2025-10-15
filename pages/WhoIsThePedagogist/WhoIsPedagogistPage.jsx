@@ -11,7 +11,7 @@ const WhoIsPedagogistPage = () => {
         <div className="Container">
           <div className="Row">
             <div className="col">
-              <div className="d-flex background align-items-center">
+              <div className="d-flex align-items-center">
                 <img className="custom-img-f" src="/Photo/Hands.jpeg" alt="" />
                 <div className="fs-5">
                   <h2 className="d-flex text-start">
