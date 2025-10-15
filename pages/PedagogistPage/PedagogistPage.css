@@ -5,6 +5,10 @@
   margin: 0 10px;
   max-width: 350px;
 }
+.custom-bridge {
+  margin: 0 10px;
+  max-height: 300px;
+}
 .custom-p {
   font-size: 22px;
 }
@@ -23,6 +27,17 @@
 @media (max-width: 425px) {
   .custom-square {
     margin: 0 15px;
+    max-width: 150px;
+  }
+  .custom-p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .custom-bridge {
+    margin: 0 15px;
+    height: 20vh;
     max-width: 150px;
   }
   .custom-p {
